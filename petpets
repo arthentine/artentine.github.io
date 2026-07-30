@@ -1,78 +1,3 @@
-#sb_top, #page_banner, #sb_side, #page_footer {
-    display: none
-    }
-#userLookupPets, #userLookupSiteTrophies, #userLookupGameTrophies {
-    background-color: #fff;
-    border: 2px solid #800080;
-    padding: 30px;
-    border-radius: 20px;
-    width: 535px
-    }
-#container {
-    min-width: auto;
-    max-width: min-content;
-    grid-template-columns: 0 min-content 0;
-    grid-template-rows: 0 0 min-content min-content 0;
-    margin: auto
-    }
-#userLookupContent {
-    opacity: 0.9;
-    margin: 80px auto;
-    padding: 40px 40px 100px;
-    color: #eabfff;
-    font-size: 14px;
-    font-weight: bold
-    }
-#userLookupContent a {
-    color: #d580ff;
-    font-size: 14px
-    }
-body::before {
-    content: "";
-    background-image: url(https://raidingtheglobe.com/images/com_osgallery/gal-21/original/tr4-wallpaper18AC27EA08-B372-C47A-1756-609309007639.jpg);
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.9
-    }
-.medfont {
-    font-size: 0.86em
-    }
-.ul__don15 img {
-    content: url(https://grundoscafe.b-cdn.net/games/trophies/don13.gif)
-    }
-.ul--stampsimg {
-    content: url(https://i.postimg.cc/brwJ6nr9/jadedrago.gif)
-    }
-.ul--tradesimg {
-    content: url(https://i.postimg.cc/CLctTg2M/image-removebg-preview-7.png)
-    }
-.ul--auctionsimg {
-    content: url(https://i.postimg.cc/gcqQsRqZ/image-removebg-preview-3.png)
-    }
-.ul--wishlistimg {
-    content: url(https://i.postimg.cc/ncF5Pz0w/image-removebg-preview-6.png)
-    }
-.ul--scoresimg {
-    content: url(https://i.postimg.cc/C1btWn39/image-removebg-preview-1.png)
-    }
-.ul--neomailimg {
-    content: url(https://i.postimg.cc/Wzny4Lbn/image-removebg-preview-4.png)
-    }
-.ul--neofriendimg {
-    background: no-repeat center/contain url(https://i.postimg.cc/C5YtYLY5/image-removebg-preview-2.png);
-    object-position: -99999px
-    }
-.ul--petname {
-    word-break: normal;
-    overflow-wrap: normal
-    }
-.ul__Tomb.Raider .ul--petimg {
-    content: url(https://i.postimg.cc/J4hPLvg6/IMG-5545.png)
-    }
 .ul__Arthus::after {
     background-image: url(https://grundoscafe.b-cdn.net/items/schnelly_silver.gif)
     }
@@ -262,12 +187,10 @@ body::before {
 .ul__skunkie::after {
     background-image: url(https://grundoscafe.b-cdn.net/items/harris_skunk.gif)
     }
-.ul__Arthus::after, .ul__𝓒𝓵𝓮𝓶𝓮𝓷𝓽𝓲𝓷𝓮::after, .ul__AlsoArthus::after, .ul__Croft✨::after, .ul__crochslay::after, .ul__unidentifiable::after, .ul__lilhopz::after, .ul__Artefacts::after, .ul__staruki::after, .ul__mooning::after, .ul__cropdust::after, .ul__𝐿𝒶𝓇𝒶.𝒞𝓇𝑜𝒻𝓉::after, .ul__Tomb.Raider::after, .ul__Archaeologist::after, .ul__Aha\!::after, .ul__LittleBird::after, .ul__angelofdarkness::after, .ul__Natla::after, .ul__Dopplganger::after, .ul__triumvirate::after, .ul__Atlantean::after, .ul__Qualopec::after, .ul__Tihocan::after, .ul__Khamoon::after, .ul__sidescrollin::after, .ul__NathanDraik::after, .ul__explorin::after, .ul__medipack::after, .ul__swimmin::after, .ul__tanktop::after, .ul__leotard::after, .ul__Jackel::after, .ul__remasters::after, .ul__Winston.Jeeves::after, .ul__LostValley::after, .ul__Bartoli::after, .ul__MariaDoria::after, .ul__TR4::after, .ul__The.Last.Revelation::after, .ul__VonCroy::after, .ul__Karnak::after, .ul__BurialChambers::after, .ul__Chronicles::after, .ul__BabaYaga::after, .ul__Yamatai::after, .ul__Unuratu::after, .ul__JadeDragon::after, .ul__Confusifying::after, .ul__Scandalacious::after, .ul__eternalsunshine::after, .ul__spotlessmind::after, .ul__starbun::after, .ul__tummyaches::after, .ul__twinklin::after, .ul__fartie::after, .ul__batboy::after, .ul__bigbear::after, .ul__petpetluver::after, .ul__chalked::after, .ul__Joannes::after, .ul__procrastinating::after, .ul__patootin::after, .ul__skunkie::after {
-    background-size: 50px 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
-    height: 50px;
-    content: ""
-    }
+.ul__safetyeyes::after {
+  background-image: url(https://grundoscafe.b-cdn.net/items/meowclops_plushie.gif)
+  }
+.ul__clawing::after {
+  background-image: url(https://grundoscafe.b-cdn.net/items/angelpuss_baby.gif)
+  }
+.ul__Arthus::after, .ul__𝓒𝓵𝓮𝓶𝓮𝓷𝓽𝓲𝓷𝓮::after, .ul__AlsoArthus::after, .ul__Croft✨::after, .ul__crochslay::after, .ul__unidentifiable::after, .ul__lilhopz::after, .ul__Artefacts::after, .ul__staruki::after, .ul__mooning::after, .ul__cropdust::after, .ul__𝐿𝒶𝓇𝒶.𝒞𝓇𝑜𝒻𝓉::after, .ul__Tomb.Raider::after, .ul__Archaeologist::after, .ul__Aha\!::after, .ul__LittleBird::after, .ul__angelofdarkness::after, .ul__Natla::after, .ul__Dopplganger::after, .ul__triumvirate::after, .ul__Atlantean::after, .ul__Qualopec::after, .ul__Tihocan::after, .ul__Khamoon::after, .ul__sidescrollin::after, .ul__NathanDraik::after, .ul__explorin::after, .ul__medipack::after, .ul__swimmin::after, .ul__tanktop::after, .ul__leotard::after, .ul__Jackel::after, .ul__remasters::after, .ul__Winston.Jeeves::after, .ul__LostValley::after, .ul__Bartoli::after, .ul__MariaDoria::after, .ul__TR4::after, .ul__The.Last.Revelation::after, .ul__VonCroy::after, .ul__Karnak::after, .ul__BurialChambers::after, .ul__Chronicles::after, .ul__BabaYaga::after, .ul__Yamatai::after, .ul__Unuratu::after, .ul__JadeDragon::after, .ul__Confusifying::after, .ul__Scandalacious::after, .ul__eternalsunshine::after, .ul__spotlessmind::after, .ul__starbun::after, .ul__tummyaches::after, .ul__twinklin::after, .ul__fartie::after, .ul__batboy::after, .ul__bigbear::after, .ul__petpetluver::after, .ul__chalked::after, .ul__Joannes::after, .ul__procrastinating::after, .ul__patootin::after, .ul__skunkie::after, .ul__safetyeyes::after, .ul__clawing::after, {
